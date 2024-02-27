@@ -1,0 +1,187 @@
+* {
+	font-family: sans-serif;
+	line-height:  1.4;
+}
+
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+	background-color: white;
+}
+
+.center {
+	text-align:  center;
+}
+
+li {
+	padding: 0.4em;
+}
+
+
+
+/* --- Navigation Bar --- */
+
+.nav {
+	position: fixed;
+	width: 100%;
+	background-color: #333;
+	display: flex;
+	align-items: center;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.9em 1.3em;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.nav a:hover {
+  background-color: #b6b6b6;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #B25618;
+  color: white;
+}
+
+/* ------------------- */
+
+.code {
+	font-size: 0.5em;
+	vertical-align: middle;
+	padding: 0.5em;
+}
+
+
+#header {
+	text-align: center;
+	padding: 8em 0;
+	margin: auto;
+	width: 75%;
+}
+
+#header #title {
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+#header #subtitle {
+	padding: 1em;
+	font-size: .9em;
+	letter-spacing: .3em;
+}
+
+main {
+	font-size: 1.2em;
+	margin: 0 24rem;
+}
+
+main a {
+	color: #7D321A;
+	text-decoration: none;
+}
+
+main a:hover {
+	color: #DE6B1E;
+}
+
+@media only screen and (max-width: 930px) {
+	#header #title {
+		font-size: 1.8em;
+	}
+
+	#header #subtitle {
+		font-size: .6em;
+		letter-spacing: .3em;
+	}
+
+	main {
+		margin: 0 2rem;
+	}
+
+	html {
+		font-size:  0.9em;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	#header #title {
+		font-size: 1.4em;
+	}
+
+	#header #subtitle {
+		font-size: .6em;
+		letter-spacing: .2em;
+	}
+
+	html {
+		font-size:  0.7em;
+	}
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	flex-shrink: 0;
+	padding: 1em;
+	background-color: #333;
+}
+
+footer a {
+	color: #b6b6b6;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #ffff;
+}
+
+article {
+	margin: 1.5em 0em 1.5em 1.5em;
+}
+
+article h4 {
+	margin: 0.5em 0em 0.5em 0em;
+}
+
+main #contact {
+	margin: 0 -9999rem;
+	margin-top: 5rem;
+  padding: 1rem 9999rem 1rem 9999rem;
+	background-color: #925842;
+	border: 0.5rem solid #3F3F3F;
+	width: 100%;
+	color: #E2E2E2;
+}
+
+#contact #icon-banner {
+	margin: 2em 0;
+	letter-spacing: 0.6em;
+}
+
+#contact .fa {
+	color: #b6b6b6;
+}
+
+#contact .fa:hover {
+	color: #ffffff;
+	
+}
+
+.spoiler {
+	background-color: black;
+	color: black;
+}
+
+.spoiler:hover {
+	font-style: italic;
+	background-color: white;
+}
